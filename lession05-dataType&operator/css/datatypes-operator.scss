@@ -1,0 +1,40 @@
+/*
+$primary_color: red;
+$size: 16;
+//16*2px=32px;
+$text_size: $size*2px;
+$text_size_string: 15+ px;
+
+h2 {
+  color: $primary_color;
+}
+p {
+  font: {
+    size: $text_size;
+  };
+}
+p.description {
+  font: {
+    size: $text_size_string;
+  }
+}
+*/
+//p2
+/*
+$background-url: "../images/";
+div.bg {
+  background-url: $background-url + "div-bg.png";
+}
+
+p.background {
+  background-url: $background-url + "p-bg.png";
+}
+*/
+$color: #4286f4;
+$light-color: lighten($color, 15%);
+$dark-color: darken($color, 55%);
+h1,p {
+  background-color: $light-color;
+  padding: 10px;
+  color: white;
+}

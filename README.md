@@ -95,9 +95,9 @@ div.container #content-left {
 ```
 
 ## 7. In SassScript
-- Thực hiện ghi chứ: các đoạn mã lệnh không được thực thi
-- Cú pháp : 
- --Single line: //ghi chú trên 1 dòng
+- Thực hiện ghi chú: các đoạn mã lệnh không được thực thi
+- Cú pháp : <br>
+ --Single line: //ghi chú trên 1 dòng<br>
  --Multi line : /*Nội dung có thể xuống dòng*/
 > Lưu ý: chỉ Multi line mới được dịch và hiển thị tại css
 
@@ -117,5 +117,40 @@ p.content {
 - Sử dụng biến cục bộ (trong 1 selector riêng) cho toàn cục dùng thêm !global
 ```css
 $text-color: pink !global;
+```
+
+## 8. SassScript : Data Types & Operator
+- numbers: 1.2, 14, 10px, 15em,...
+- string: "value", 'value', value
+- colors: red, #cccccc, rgba(255,0,0,0)
+- booleans: true, false
+- nulls
+- lists
+- maps (key1: value1, key2: value2)
+
+**Sử dụng toán tử cộng để nối chuỗi**
+```css
+$background-url: "../images/";
+div.bg {
+  background-url: $background-url + "div-bg.png";
+}
+```
+
+**Sử dụng toán tử nhân**
+```css
+$size: 16;
+$text_size: $size*2px;
+$text_size_string: 15+ px;
+
+p {
+  font: {
+    size: $text_size;
+  };
+}
+p.description {
+  font: {
+    size: $text_size_string;
+  }
+}
 ```
 

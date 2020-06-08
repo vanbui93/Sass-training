@@ -1,0 +1,20 @@
+$primary_color: #0097A7;
+$text-large-size: 32px;
+
+h3 {
+  color: #AFB42B;
+}
+p.content {
+  $text-color: pink !global;
+  background-color: $primary_color;
+  a {
+    font: {
+      size: $text-large-size;
+    }
+    color: $text-color;
+  }
+}
+span {
+  border-bottom: 1px solid $primary_color;
+  color: $text-color;
+}

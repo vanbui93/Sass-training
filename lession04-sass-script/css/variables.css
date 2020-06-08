@@ -1,0 +1,18 @@
+h3 {
+  color: #AFB42B;
+}
+
+p.content {
+  background-color: #0097A7;
+}
+p.content a {
+  font-size: 32px;
+  color: pink;
+}
+
+span {
+  border-bottom: 1px solid #0097A7;
+  color: pink;
+}
+
+/*# sourceMappingURL=variables.css.map */

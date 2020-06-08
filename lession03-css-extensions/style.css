@@ -1,0 +1,14 @@
+div.container div.child a {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+div.container div.child p {
+  color: blue;
+  border-bottom: solid 1px red;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

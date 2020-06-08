@@ -153,4 +153,14 @@ p.description {
   }
 }
 ```
+## 9. SassScript: Interpolation
+- Lấy giá trị các biến lưu trữ
+- Áp dụng: selector
+- cú pháp : `#{$name}`
 
+```css
+$name: content;
+div.#{$name} {
+  background-color: red;
+}
+```

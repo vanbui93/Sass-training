@@ -1,3 +1,6 @@
+Code được viết trong khi học SASS của senior nghiepuit<br>
+Kênh youtube : https://www.youtube.com/channel/UCxRgDi15EJsB2ayyP-eg3Tg
+
 ## 1. Giới thiệu : CSS Preprocessor
 - Cung cấp các quy tắc: nested rule, variable, mixin
 - Viết mã CSS nhanh, chuyên nghiệp
